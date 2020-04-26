@@ -1,3 +1,5 @@
+//This is a practice project from a course
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 
@@ -17,7 +19,7 @@ public class Main {
         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
 
         System.out.print("Period (Years): ");
-        byte years = scanner.nextByte();
+        byte years = scanner.nextByte(); //maximum number we want support is 30
         int numberOfPayments = years * MONTHS_IN_YEAR;
 
         double mortgage = principal
