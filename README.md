@@ -4,6 +4,7 @@
 <h4>OOP<h4>
   
   
-  >Constructor:
-  1.Default Constructor
-  2.Parametrized Constructor
+  ###Constructor:
+ - Default Constructor
+ - Parametrized Constructor
+
